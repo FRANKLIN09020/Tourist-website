@@ -9,7 +9,7 @@ const Kodaikanal = () => {
 
    <Col className='mt-5'>
    <h4>03. Kodaikanal</h4>
-   <div className='d-flex'>
+   <div className='d-lg-flex'>
    
    <Image src={require("../Assets/Kodaikanal.jpeg")} width={500} height={430}></Image>
    <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>“The Princess of Hill Stations”

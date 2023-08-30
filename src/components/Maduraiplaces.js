@@ -8,8 +8,8 @@ const Maduraiplaces = () => {
     < Container >
     <Row>
      <h4 className='text-center pt-5'>Must Visit Place In Madurai </h4>
-     <Col className='d-flex '>
-     <Card style={{ width: '18rem'  }} className='m-3'>
+     <Col className='d-lg-flex '>
+     <Card style={{ width: '19rem'  }} className='m-3'>
      <Image src={require("../Assets/madurai1.jpeg")}height={140}></Image>
        <Card.Body>
          <Card.Title>Vaigai Dam</Card.Title>
@@ -23,7 +23,7 @@ near Andipatti, Theni...
          <Button variant="primary">Read More</Button>
        </Card.Body>
      </Card>
-      <Card style={{ width: '18rem' }} className='m-3'>
+      <Card style={{ width: '19rem' }} className='m-3'>
      <Image src={require("../Assets/madurai2.jpeg")} ></Image>
        <Card.Body>
          <Card.Title>
@@ -38,7 +38,7 @@ in the...
        </Card.Body>
      </Card> 
  
-     <Card style={{ width: '18rem' }} className='m-3'>
+     <Card style={{ width: '19rem' }} className='m-3'>
      <Image src={require("../Assets/madurai3..jpeg")}></Image>
        <Card.Body>
          <Card.Title>Samanar Hills</Card.Title>
@@ -51,7 +51,7 @@ beautiful hill rock...
          <Button variant="primary">Read More</Button>
        </Card.Body>
      </Card>
-     <Card style={{ width: '18rem' }} className='m-3'>
+     <Card style={{ width: '19.5rem' }} className='m-3'>
      <Image src={require("../Assets/madurai4..jpeg")}></Image>
        <Card.Body>
          <Card.Title>
@@ -64,7 +64,7 @@ Nayak...
 
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary mt-4">Read More</Button>
        </Card.Body>
      </Card>
      </Col>

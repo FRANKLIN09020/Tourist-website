@@ -9,8 +9,8 @@ const Ootyplaces = () => {
     < Container > 
     <Row>
      <h4 className='text-center pt-5'>Must Visit Place In Ooty</h4>
-     <Col className='d-flex '>
-     <Card style={{ width: '18rem'  }} className='m-3'>
+     <Col className='d-lg-flex '>
+     <Card style={{ width: '20rem'  }} className='m-3'>
      <Image src={require("../Assets/ooty1 (1).jpeg")}></Image>
        <Card.Body>
          <Card.Title>
@@ -24,7 +24,7 @@ popular hill..
          <Button variant="primary">Read More</Button>
        </Card.Body>
      </Card>
-      <Card style={{ width: '18rem' }} className='m-3'>
+      <Card style={{ width: '20rem' }} className='m-3'>
      <Image src={require("../Assets/ooty1 (2).jpeg")} ></Image>
        <Card.Body>
          <Card.Title>Ooty Botanical Garden</Card.Title>
@@ -35,12 +35,12 @@ Doddabetta peak, the
 Government Botanical...
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary mt-5">Read More</Button>
        </Card.Body>
      </Card> 
  
  
-     <Card style={{ width: '18rem' }} className='m-3'>
+     <Card style={{ width: '20rem' }} className='m-3'>
      <Image src={require("../Assets/ooty1 (3).jpeg")}width={245} height={163}></Image>
        <Card.Body>
          <Card.Title>Emerald Lake</Card.Title>
@@ -52,10 +52,10 @@ Ooty and...
 
  
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary mt-5">Read More</Button>
        </Card.Body>
      </Card>
-     <Card style={{ width: '18rem' }} className='m-3'>
+     <Card style={{ width: '20rem' }} className='m-3'>
      <Image src={require("../Assets/ooty1 (4).jpeg")}width={245} height={163}></Image>
        <Card.Body>
          <Card.Title>Dolphin’s Nose</Card.Title>
@@ -66,7 +66,7 @@ Nose about 1,500 meters above
 sea level. The tip...
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary mt-4">Read More</Button>
        </Card.Body>
      </Card>
      </Col>

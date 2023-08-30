@@ -9,7 +9,7 @@ const Hogenakkal = () => {
 
    <Col className='mt-5'>
    <h4>10. Hogenakkal</h4>
-   <div className='d-flex'>
+   <div className='d=lg-flex'>
    
    <Image src={require("../Assets/Hogenakkal.jpeg")} width={500} height={430}></Image>
    <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>“The one that will take your breath away"

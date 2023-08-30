@@ -6,12 +6,12 @@ const Chennai = () => {
    <Container id="Chennai">
     <Row>
 
-   <Col className='mt-5'>
+   <Col className='mt-5 '>
    <h4>01.Chennai</h4>
-   <div className='d-flex'>
+   <div className='d-lg-flex'>
    
-   <Image src={require("../Assets/Chennai.jpeg")} width={530} height={420}></Image>
-   <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>"The Detroit Of India"</h6></span>
+   <Image src={require("../Assets/Chennai.jpeg")} width={530} height={420} id='img1'></Image>
+   <p style={{textAlign:"justify"}} className='mx-4' id="para"> <span  className='p-5'><h6>"The Detroit Of India"</h6></span>
   
    Formerly known as Madras, Chennai is the capital city of the state of Tamil Nadu, in the southern part of India. Located on the Coromandel coast of Bay of Bengal, Chennai is as dynamic as it is immersed in tradition. This 'capital of the south', is one among the four metropolitan siblings of India, having a rich cultural history which it perfectly balances with its metropolis lifestyle.  <br /><br />
    <span  className='p-5'>

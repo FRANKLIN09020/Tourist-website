@@ -8,7 +8,7 @@ const Yercaud = () => {
 
    <Col className='mt-5'>
    <h4>08. Yercaud</h4>
-   <div className='d-flex'>
+   <div className='d-lg-flex'>
    
    <Image src={require("../Assets/Yarcaud.jpeg")} width={500} height={350}></Image>
    <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>"The Land of Seven Forest"

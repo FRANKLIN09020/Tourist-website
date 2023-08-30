@@ -9,7 +9,7 @@ const Kodaikanalplaces = () => {
     < Container >
     <Row>
      <h4 className='text-center pt-5'>Must Visit Place In Kodaikanal</h4>
-     <Col className='d-flex '>
+     <Col className='d-lg-flex '>
      <Card style={{ width: '18rem'  }} className='m-3'>
      <Image src={require("../Assets/kodaikanal1....jpeg")}></Image>
        <Card.Body>
@@ -30,8 +30,7 @@ the plains, deep...
          <Card.Text>
          Kodaikanal Lake is a manmade
 lake in the Kodaikanal city
-which is also known as Kodai
-Lake. Vera...
+which is also known as Kodai...
          </Card.Text>
          <Button variant="primary">Read More</Button>
        </Card.Body>

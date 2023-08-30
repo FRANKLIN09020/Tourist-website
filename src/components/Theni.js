@@ -8,7 +8,7 @@ const Theni = () => {
 
    <Col className='mt-5'>
    <h4>09. Theni</h4>
-   <div className='d-flex'>
+   <div className='d-lg-flex'>
    
    <Image src={require("../Assets/Theni.jpeg")} width={500} height={420}></Image>
    <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>"A little hamlet in Tamil Nadu”

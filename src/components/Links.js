@@ -8,13 +8,13 @@ const Links = () => {
   return (
      <Container>
 <Row>
-    <Col>
+    <Col >
     <Nav className="justify-content-center mt-4 p-4" >
         <Nav.Item>
           <Nav.Link  className='text-center' id="head">Tourist Places To Tamil Nadu <br/> Here Are The top Places to Visit In Tamil Nadu In 2023</Nav.Link>
         </Nav.Item>
     </Nav>
-    <Nav class="d-flex justify-content-evenly">
+    <Nav class="d-lg-flex justify-content-evenly "  >
     <Nav.Item>
           <Nav.Link href='#Chennai' className='mx-3' id="nav1">Chennai</Nav.Link>
           <Nav.Link href='#Rameshwaram'  id="nav1" >Rameshwaram</Nav.Link>

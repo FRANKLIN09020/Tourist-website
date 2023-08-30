@@ -9,7 +9,7 @@ const Hogenakkalplaces = () => {
     < Container >
     <Row>
      <h4 className='text-center pt-5'>Must Visit Place In Hogenakkal</h4>
-     <Col className='d-flex '>
+     <Col className='d-lg-flex '>
      <Card style={{ width: '18rem'  }} className='m-3'>
      <Image src={require("../Assets/hogenakkal1.jpeg")}></Image>
        <Card.Body>

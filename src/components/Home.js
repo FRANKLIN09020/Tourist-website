@@ -1,42 +1,55 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import {Col,Row,Container} from 'react-bootstrap';
-import Image from 'react-bootstrap/Image';
+import Links from './Links';
+import Chennai from './Chennai';
+import Chennaiplaces from './Chennaiplaces';
+import Rameshwaram from './Rameshwaram';
+import Rameswaramplaces from './Rameswaramplaces';
+import Kodaikanal from './Kodaikanal';
+import Kodaikanalplaces from './Kodaikanalplaces';
+import Ooty from './Ooty';
+import Ootyplaces from './Ootyplaces';
+import Kanyakumari from './Kanyakumari';
+import Kanyakumariplaces from './Kanyakumariplaces';
+import Kumbakonam from './Kumbakonam';
+import Kumbakonamplaces from './Kumbakonamplaces';
+import Madurai from './Madurai';
+import Maduraiplaces from './Maduraiplaces';
+import Yercaud from  './Yercaud';
+import Yercaudplaces from './Yercaudplaces';
+import Theni from './Theni';
+import Theniplaces from './Theniplaces';
+import Hogenakkal from './Hogenakkal';
+import Hogenakkalplaces from './Hogenakkalplaces';
+import  Carousel  from './Carousels';
 
 const Home = () => {
   
-  
   return (
-
-        <Container>
-        <Row>
-        <Col >
-        <Carousel>
-      <Carousel.Item >
-      <Image src={require("../Assets/banner1.jpg")} alt="Banner" width={1200}    />
-      </Carousel.Item>
-      <Carousel.Item >
-      <Image src={require("../Assets/pic1.jpeg")} alt="Banner" width={1150} />
-      </Carousel.Item>
-      <Carousel.Item>
-      <Image src={require("../Assets/pic2.jpeg")} alt="Banner" width={1160} />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Image  src={require("../Assets/pic3.jpeg")} alt="Banner" width={1140} />
-      </Carousel.Item>
-
-    <Carousel.Item>
-      <Image src={require("../Assets/pic4.jpeg")} alt="Banner" width={1150} />
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-    </Col>
-    </Row>
-    </Container>
-   
+    <div className='Home'>
+      <Carousel/>
+      <Links/>
+      <Chennai/>
+      <Chennaiplaces/>
+      <Rameshwaram/>
+    <Rameswaramplaces/>
+    <Kodaikanal/>
+    <Kodaikanalplaces/>
+    <Ooty/>
+    <Ootyplaces/>
+    <Kanyakumari/>
+ <Kanyakumariplaces/>
+ <Kumbakonam/>
+ <Kumbakonamplaces/>
+ <Madurai/>
+ <Maduraiplaces/>
+ <Yercaud/>
+ <Yercaudplaces/>
+ <Theni/>
+ <Theniplaces/>
+ <Hogenakkal/>
+ <Hogenakkalplaces/>
+    </div>
+        
   );
 }
 

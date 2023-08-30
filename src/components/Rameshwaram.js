@@ -8,7 +8,7 @@ const Rameshwaram = () => {
    
    <Col className='mt-5'>
    <h4>02. Rameshwaram</h4>
-   <div className='d-flex'>
+   <div className='d-lg-flex'>
    
    <Image src={require("../Assets/Rameshwaran.jpeg")} width={500} height={400}></Image>
    <p style={{textAlign:"justify"}} className='mx-4'> <span  className='p-5'><h6>"The Bridge on the Indian Ocean"</h6></span>

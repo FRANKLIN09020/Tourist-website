@@ -9,7 +9,7 @@ const Theniplaces = () => {
     < Container >
     <Row>
      <h4 className='text-center pt-5'>Must Visit Place In Theni</h4>
-     <Col className='d-flex '>
+     <Col className='d-lg-flex '>
      <Card style={{ width: '18rem'  }} className='m-3'>
      <Image src={require("../Assets/theni1.(1).jpeg")}></Image>
        <Card.Body>

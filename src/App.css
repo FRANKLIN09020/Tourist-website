@@ -1,8 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-   
+    list-style: none;
 }
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:active{
+    text-decoration: none;
+}
+
 #nav{
     background-color: rgb(201, 192, 192);
 }
@@ -10,7 +18,9 @@
 #nav1{
     background-color: #ffffff;
 }
-
+#container{
+    background-color: rgb(177, 171, 171);
+}
 #head{
  font-size:20px;
  font-weight: 600;
@@ -42,3 +52,14 @@ p{
     font-size: 23px;
     font-weight: 500;
 }
+
+h6{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+ul li{
+    font-size: 25px;
+    font-weight: 500;
+}
+

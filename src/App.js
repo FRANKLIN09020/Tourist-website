@@ -5,6 +5,7 @@ import Home from './components/Home';
 import {Routes, Route } from "react-router-dom";
 import Placetovisit from './components/place to visit/Placetovisit';
 import Besttime from './components/best time to visit/Besttime';
+import Foods from './components/Foods/Foods';
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,8 @@ function App() {
       <Route path='/' element={ <Home/>}/>
       <Route path='/visit' element={  <Placetovisit/>}/>
       <Route path='/Best Time To Visit' element={<Besttime/>}/>
+      <Route path='/foods' element={<Foods/>}/>
+     
       </Routes>
 </div>
 

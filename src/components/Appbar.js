@@ -17,9 +17,9 @@ const Appbar = () => {
             <Nav.Link href="#" className="font-weight-bold  " id="nav2"><Link to="/">Home</Link></Nav.Link>
             <Nav.Link href="#" className="font-weight-bold " id="nav2"><Link to="/visit">Places To Visit</Link></Nav.Link>
             <Nav.Link href="#" className="font-weight-bold" id="nav2"><Link to="/Best Time To Visit">Best Time To Visit</Link></Nav.Link>
-            <Nav.Link href="#" className="font-weight-bold  " id="nav2">Packages</Nav.Link>
-            <Nav.Link href="#" className="font-weight-bold  " id="nav2">Destination</Nav.Link>
-            <Nav.Link href="#" className="font-weight-bold " id="nav2">Food</Nav.Link>
+            <Nav.Link href="#" className="font-weight-bold  " id="nav2"><Link to="/packages">Packages</Link></Nav.Link>
+            <Nav.Link href="#" className="font-weight-bold  " id="nav2"><Link to="/destination">Destination</Link></Nav.Link>
+            <Nav.Link href="#" className="font-weight-bold " id="nav2"><Link to="/foods">Foods</Link></Nav.Link>
           </Nav>
           </Col>
         </Navbar.Collapse>

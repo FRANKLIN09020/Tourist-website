@@ -21,7 +21,7 @@ known as Toy Train in Ooty, is
 one of the key attractions of the
 popular hill..
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" >Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '20rem' }} className='m-3'>
@@ -35,7 +35,7 @@ Doddabetta peak, the
 Government Botanical...
 
          </Card.Text>
-         <Button variant="primary mt-5">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"25px"}}>Read More</Button>
        </Card.Body>
      </Card> 
  
@@ -52,7 +52,7 @@ Ooty and...
 
  
          </Card.Text>
-         <Button variant="primary mt-5">Read More</Button>
+         <Button variant="primary"  style={{position:"relative",top:"25px"}}>Read More</Button>
        </Card.Body>
      </Card>
      <Card style={{ width: '20rem' }} className='m-3'>
@@ -66,7 +66,7 @@ Nose about 1,500 meters above
 sea level. The tip...
 
          </Card.Text>
-         <Button variant="primary mt-4">Read More</Button>
+         <Button variant="primary " style={{position:"relative",top:"25px"}}>Read More</Button>
        </Card.Body>
      </Card>
      </Col>

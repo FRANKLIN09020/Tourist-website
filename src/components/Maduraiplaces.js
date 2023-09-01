@@ -20,7 +20,7 @@ constructed over River Vaigai
 near Andipatti, Theni...
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"23px"}}>Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '19rem' }} className='m-3'>
@@ -48,7 +48,7 @@ village near Madurai, Samanar
 Hills or Samanar Malai is a
 beautiful hill rock...
 </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"24px"}}>Read More</Button>
        </Card.Body>
      </Card>
      <Card style={{ width: '19.5rem' }} className='m-3'>

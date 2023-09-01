@@ -17,7 +17,7 @@ const Hogenakkalplaces = () => {
          <Card.Text>
          Theerthamalai is a popular pilgrim centre close to Hogenakkal. One of its most popular destinations is the...
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" className='mt-4'>Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '18rem' }} className='m-3'>
@@ -28,7 +28,7 @@ const Hogenakkalplaces = () => {
          <Card.Text>
          Hogenakkal Falls is a  scintillating waterfall that is located on river Kaveri in the  Dharmapuri district of...
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" className='mt-4'>Read More</Button>
        </Card.Body>
      </Card> 
  
@@ -43,7 +43,7 @@ const Hogenakkalplaces = () => {
          The village is located about 20 km away from Hogenakkal and  famous for its weekly fair that  it holds every..
 
 </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"25px"}}>Read More</Button>
        </Card.Body>
      </Card>
      <Card style={{ width: '18rem' }} className='m-3'>
@@ -58,7 +58,7 @@ Village, is one of the largest
  dams in India. Built...
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" className='mt-4'>Read More</Button>
        </Card.Body>
      </Card>
      </Col>

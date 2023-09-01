@@ -36,7 +36,7 @@ Kumbakkarai Falls is a
 mesmerising waterfall that...      
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"23px"}} >Read More</Button>
        </Card.Body>
      </Card> 
  
@@ -71,7 +71,7 @@ waterfall in the Theni district of
 Tamil Nadu and one of the
 major tourist attractions of.
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"23px"}}>Read More</Button>
        </Card.Body>
      </Card>
      </Col>

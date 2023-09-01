@@ -6,11 +6,11 @@ const Localfoods = () => {
   return (
     <Container style={{marginLeft:"165px"}}>
         <div className='mt-5'>
-        <h4 className='text-center'>TAMILNADU</h4>
+        <h4 className='text-center' >TAMILNADU</h4>
         <h4 style={{marginLeft:"400px"}}>FAMOUS AND LOCAL FOODS</h4>
         </div>
         <Row>
-            <Col>
+            <Col className='d-sm-grid'>
              <div id="card" >
                 <h4 className='text-center pt-4' >Food of Chennai</h4>
                 <p style={{textAlign:"justify",fontSize:"15px"}} className='mt-2 p-3'>

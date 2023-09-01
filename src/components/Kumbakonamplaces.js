@@ -23,11 +23,11 @@ Kumbakonam...
 
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary mt-4">Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '18rem' }} className='m-3'>
-     <Image src={require("../Assets/kumbakonam1 (2).jpeg")} width={245} height={163}></Image>
+     <Image src={require("../Assets/kumbakonam1.(2).jpeg")} width={245} height={163}></Image>
        <Card.Body>
          <Card.Title>
          Nageswaran Temple
@@ -39,7 +39,7 @@ important Shalvite temple. A
 piece of genius Chola.
 
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"25px"}}>Read More</Button>
        </Card.Body>
      </Card> 
  

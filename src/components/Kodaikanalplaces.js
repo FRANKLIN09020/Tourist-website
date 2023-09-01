@@ -20,7 +20,7 @@ point, the Green Valley View
 offers a breathtaking view of
 the plains, deep...
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",bottom:"3px"}}>Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '18rem' }} className='m-3'>
@@ -32,7 +32,7 @@ the plains, deep...
 lake in the Kodaikanal city
 which is also known as Kodai...
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" >Read More</Button>
        </Card.Body>
      </Card> 
  
@@ -48,7 +48,7 @@ Lake, the Bear Shola Falls is a
 popular...
  
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary"  style={{position:"relative",top:"3px"}}>Read More</Button>
        </Card.Body>
      </Card>
      <Card style={{ width: '18rem' }} className='m-3'>
@@ -61,7 +61,7 @@ stations’, Kodaikanal, the Pillar
 Rocks have become a lovely
 picni...
          </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" style={{position:"relative",top:"5px"}}>Read More</Button>
        </Card.Body>
      </Card>
      </Col>

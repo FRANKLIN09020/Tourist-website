@@ -19,7 +19,7 @@ in Tamil Nadu, Marina Beach is
 a natural urban beach along the
 Bay of Bengal...
         </Card.Text>
-        <Button variant="primary mt-4">Read More</Button>
+        <Button variant="primary" style={{position:"relative",top:"49px"}}>Read More</Button>
       </Card.Body>
     </Card>
      <Card style={{ width: '20rem' }} className='m-3'>
@@ -29,7 +29,7 @@ Bay of Bengal...
         <Card.Text>
         Having been established in theyear 1994, a considerably newstructure, the MGR Film ity ismanaged...
         </Card.Text>
-        <Button variant="primary mt-4">Read More</Button>
+        <Button variant="primary" style={{position:"relative",top:"49px"}}>Read More</Button>
       </Card.Body>
     </Card> 
 
@@ -42,7 +42,7 @@ Bay of Bengal...
         The magnificent Marundeeswarar Temple, in
          Tiruvanmiyur, near Chennai has the temple deity Shiva...
         </Card.Text>
-        <Button variant="primary ">Read More</Button>
+        <Button variant="primary mt-4 ">Read More</Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '20rem' }} className='m-3'>

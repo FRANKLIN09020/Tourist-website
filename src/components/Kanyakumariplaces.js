@@ -21,7 +21,7 @@ beach with ts beautiful hue-
 changing beaches...
 
          </Card.Text>
-         <Button variant="primary mt-4">Read More</Button>
+         <Button variant="primary">Read More</Button>
        </Card.Body>
      </Card>
       <Card style={{ width: '20rem' }} className='m-3'>
@@ -49,7 +49,7 @@ philosopher and poet
 Thiruvalluvar, this beautiful
 statue finds itself...
          </Card.Text>
-         <Button variant="primary mt-4">Read More</Button>
+         <Button variant="primary">Read More</Button>
        </Card.Body>
      </Card>
      <Card style={{ width: '20rem' }} className='m-3'>
@@ -65,7 +65,7 @@ waters of the Thirparappu..
 
  
          </Card.Text>
-         <Button variant="primary mt-4">Read More</Button>
+         <Button variant="primary ">Read More</Button>
        </Card.Body>
      </Card>
      </Col>

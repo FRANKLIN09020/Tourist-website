@@ -52,11 +52,11 @@ the Emerald Lake...
 
 
 </Card.Text>
-         <Button variant="primary">Read More</Button>
+         <Button variant="primary" >Read More</Button>
        </Card.Body>
      </Card>
-     <Card style={{ width: '18rem' }} className='m-3'>
-     <Image src={require("../Assets/yercaud1.(4).jpeg")}></Image>
+     <Card style={{ width: '18rem',height:"355px"}} className='mt-3 mx-3'>
+     <Image src={require("../Assets/yercaud1.(4).jpeg")}  className='d-block w-100'></Image>
        <Card.Body>
          <Card.Title>
          Lady,s Seat
